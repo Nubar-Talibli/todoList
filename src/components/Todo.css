@@ -1,0 +1,78 @@
+.main {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(#ffd55c 50%, #5a95ff 50%);
+    margin: 70px 200px 0;
+}
+.todo {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: rgb(232, 238, 243);
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 35px;
+    gap: 20px;
+}
+.button {
+    display: flex;
+    gap: 20px;
+}
+.button input {
+    width: 80%;
+    background-color: rgb(232, 238, 243);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.489);
+}
+.button button {
+    color: white;
+    background-color: #5a95ff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+}
+.click {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+.edit input[type="text"] {
+    border: none;
+    outline: none;
+}
+.edit button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.text h2 {
+    color: white;
+}
+
+
